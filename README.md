@@ -1,35 +1,23 @@
 # React Projects
 
-> Click on the links below to access each App
+## 📌 About
 
-1. [Shopping Cart](https://aman-maharshi.github.io/react-js-projects/shopping-cart/build/)
-1. [Webcam and Audio Level Monitor](https://aman-maharshi.github.io/react-js-projects/webcam-monitor/build/)
-1. [Spell Checker](https://aman-maharshi.github.io/react-js-projects/spell-checker/build/)
-1. [Text Editor File Explorer](https://aman-maharshi.github.io/react-js-projects/text-editor-file-explorer/build/)
-1. [Tasks List with Drag and Drop](https://aman-maharshi.github.io/react-js-projects/task-manager-typescript/build/)
-1. [Grocery List](https://aman-maharshi.github.io/react-js-projects/shopping-list/build/)
+This repository is a curated collection of small, self-contained React applications used for practice, experimentation, and demonstration of common front-end patterns. Each application lives in its own top-level folder with its own `package.json`, so you can install dependencies and run projects independently without affecting the others. Together they cover a range of topics including UI components, forms, lists, navigation, media, and data-oriented interfaces.
 
-#### Web Projects - Elements used on many websites
-1. [Shopping Tabs](https://aman-maharshi.github.io/react-js-projects/tabs/build/)
-1. [Multi Step Form](https://aman-maharshi.github.io/react-js-projects/multi-step-form/build/)
-1. [Accordion](https://aman-maharshi.github.io/react-js-projects/accordion/build/)
-1. [Carousel / Slider](https://aman-maharshi.github.io/react-js-projects/carousel-slider/build/)
-1. [List Filter / Search Bar](https://aman-maharshi.github.io/react-js-projects/search-bar/build/)
-1. [Sub-Tabs Manager](https://aman-maharshi.github.io/react-js-projects/layoff-manager/build/)
-1. [Sidebar](https://aman-maharshi.github.io/react-js-projects/sidebar-nav-menu/build/)
-1. [Responsive Navbar](https://aman-maharshi.github.io/react-js-projects/responsive-navbar/build/)
+## ⚙️ Stack & scope
 
-#### API Projects - Apps using data from external APIs
+Most apps are bootstrapped with Create React App and target React 18; individual projects may add TypeScript, Tailwind CSS, Sass, or UI libraries where it suits the exercise. These samples are meant as learning references and prototypes rather than hardened production systems. A current Node.js LTS release usually works best with the Create React App toolchain used here.
 
-1. [Movie Database App](https://dancing-fenglisu-6043b2.netlify.app/)
-1. [Messaging App](https://aman-maharshi.github.io/react-js-projects/messaging-app/build/)
-1. [Gallery Search and Filter](https://aman-maharshi.github.io/react-js-projects/gallery-search-and-filter/build/)
-1. [Pagination](https://aman-maharshi.github.io/react-js-projects/pagination/build/)
-1. [URL Shortner](https://aman-maharshi.github.io/react-js-projects/url-shortner/build/)
-1. [Tour Finder](https://aman-maharshi.github.io/react-js-projects/tours/build/)
+## ✓ Prerequisites
 
-#### Other Projects
+Before running anything, ensure [Node.js](https://nodejs.org/) and npm are installed on your machine.
 
-1. [Color Shade Generator](https://aman-maharshi.github.io/react-js-projects/color-generator/build/)
-1. [Dummy Text Generator](https://aman-maharshi.github.io/react-js-projects/dummy-text-generator/build/)
-1. [Reviews](https://aman-maharshi.github.io/react-js-projects/review-slider/build/)
+## 🚀 Run locally
+
+To try a project, open a terminal, change into its directory (for example `cd webcam-monitor`), run `npm install`, then start the development server with `npm start`. For a production-style bundle, use `npm run build` and deploy or serve the contents of the generated `build` folder according to your hosting setup.
+
+## 📂 Projects in this repo
+
+If a subfolder includes its own README, prefer that file for app-specific behavior, environment notes, or caveats. The set of folders may change as new exercises are added or retired.
+
+**Folders:** `accordion`, `carousel-slider`, `color-generator`, `countdown-timer`, `dummy-text-generator`, `file-explorer`, `gallery-search-and-filter`, `infinite-scrolling`, `layoff-manager`, `messaging-app`, `movie-db-app`, `movie-seat-selector`, `multi-step-form`, `pagination`, `responsive-navbar`, `review-slider`, `search-bar`, `shopping-cart`, `shopping-list`, `sidebar-nav-menu`, `spell-checker`, `tabs`, `task-manager-typescript`, `text-editor-file-explorer`, `tours`, `tree-traversal`, `url-shortner`, `webcam-monitor`.
